@@ -5,7 +5,7 @@ KNN implementation with PyCUDA
 KNN_pycuda(MAX_K, X_train, X_test, y_train, y_test,
                metric='eucl', preproc=None, verbose=False):
     
-- parameters:
+parameters:
 - MAX_K: the function evaluate every K in [1, MAX_K]
 - X_train, X_test, y_train, y_test: training and test set
 - metric: distance metric. Support 'eucl', 'manh', 'cheb', 'cos'
