@@ -2,7 +2,7 @@
 KNN implementation with PyCUDA
 
 
-  KNN_pycuda(MAX_K, X_train, X_test, y_train, y_test,
+    KNN_pycuda(MAX_K, X_train, X_test, y_train, y_test,
                metric='eucl', preproc=None, verbose=False):
     
 parameters:
